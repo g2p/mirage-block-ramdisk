@@ -21,10 +21,10 @@ depends: [
   "ocamlfind"  {build}
   "ocamlbuild" {build}
   "topkg"      {build}
-  "alcotest"   {test}
+  "alcotest"   {with-test}
   "cstruct"
   "io-page"
-  "io-page-unix" {test}
+  "io-page-unix" {with-test}
   "mirage-block-lwt" {>= "1.0.0"}
   "lwt"
 ]
